@@ -36,9 +36,8 @@ const Footer = () => {
 
         <ul className="flex space-x-8 mt-4 md:mt-0">
           {links.map((link, index) => (
-            <li>
+            <li key={index}>
               <a
-                key={index}
                 href={link.href}
                 className=" text-[#ECEEEC] text-base hover:text-slate-600"
               >
