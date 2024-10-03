@@ -19,10 +19,12 @@ const Testimonials = () => {
         </p>
       </div>
 
-      <p className=" md:text-3xl text-xl font-semibold  max-w-5xl mx-auto">
-        "Absolutely love my ThunderBolt! Smooth ride, sleek design, and
-        unbeatable performance."
-      </p>
+      <blockquote className=" md:text-3xl text-xl font-semibold  max-w-5xl mx-auto">
+        <p>
+          "Absolutely love my ThunderBolt! Smooth ride, sleek design, and
+          unbeatable performance."
+        </p>
+      </blockquote>
 
       <p className="mt-4 text-xl  md:text-3xl font-semibold ">- John S.</p>
     </section>
