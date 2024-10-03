@@ -4,7 +4,7 @@ import { Button } from "@/components/ui/button";
 const NavBar = () => {
   return (
     <>
-      <nav className="bg-[#14121F]   text-white md:px-14 px-5 py-4 md:py-6 ">
+      <nav className="bg-[#14121F] border-b border-[#282A27]   text-white md:px-14 px-5 py-4 md:py-6 ">
         <div className="container mx-auto flex justify-between items-center">
           <h1 className="cursor-pointer font-medium text-base">Bike Bliss</h1>
 
