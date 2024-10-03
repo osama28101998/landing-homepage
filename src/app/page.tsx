@@ -7,7 +7,7 @@ import CallToAction from "./components/calltoaction";
 
 export default function Home() {
   return (
-    <div className="bg-[#14121F] ">
+    <div className="bg-[#14121F]  ">
       <Hero />
       <Feature />
       <Testimonials />

@@ -5,10 +5,11 @@ import { Button } from "@/components/ui/button";
 const Hero = () => {
   return (
     <section className=" text-white py-10 lg:py-16">
-      <div className="container mx-auto flex flex-col items-center">
-        <h1 className="text-3xl sm:text-4xl lg:text-[48px] leading-tight font-bold text-[#ECEEEC] text-center">
-          Ride with passion <br /> Ride with us
-        </h1>
+      <div className="container mx-auto   flex flex-col items-center">
+        <div className="text-3xl space-y-2 sm:text-4xl max-w-lg  lg:text-[48px] leading-tight font-bold text-[#ECEEEC] text-center">
+          <h1>Ride with passion</h1>
+          <p>Ride with us</p>
+        </div>
 
         <p className="text-[#ECEEEC] px-5 text-base sm:text-lg lg:text-xl mt-4 text-center">
           Experience the thrill of the open road with our premium selection of
